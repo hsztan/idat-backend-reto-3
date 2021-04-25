@@ -1,10 +1,10 @@
 alumnos = []
-cantidad_alumnos = -1
 
-while cantidad_alumnos == -1:
+while True:
     try:
         cantidad_alumnos = int(
             input('Ingresar cantidad de alumnos a ingresar: '))
+        break
     except:
         print("Ingrese solo números")
 
